@@ -34,7 +34,8 @@ docker ps --formate=$FORMAT
 
 #  #Volumes 
 
-![[docker_volumes.png]]
+![Docker_volume](docker_volumes.png)
+
 
 # #Hosting-basic-static-html-webpage-from-host-directory-inside-a-nginx container :
 
@@ -124,12 +125,12 @@ docker run -p 8081:80 --name web_copy_nginx_2 --volumes-from nginx_1 -d nginx
 ### Dockerfile reference: *https://docs.docker.com/reference/dockerfile/
 
 
-
-![[Dockerfile.png]]
+![Dockerfile](Dockerfile.png)
 
 
 # #what-is-docker-image
 
-![[docker_image.png]]
+![Docker_image](docker_image.png)
+
 
 
