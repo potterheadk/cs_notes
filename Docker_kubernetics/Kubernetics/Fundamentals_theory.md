@@ -1,13 +1,13 @@
 ## ⚠️ **Some Images are Ai generated so be careful :)**  ⚠️
 
-![[topics.png]]
+![](topics.png)
 
 
 
-![[user_diagram.webp]]
+![](user_diagram.webp)
 
 
-![[kubernetics_overview.webp]]
+![](kubernetics_overview.webp)
 
 
 
@@ -100,13 +100,13 @@ Kubernetes is a powerful tool for organizations looking to leverage containeriza
 
 ### Each worker node we call it kubelet (primary"node agent")
 
-![[master_worker.png]]
+![](master_worker.png)
 
 
 ------------------
 # What is actually happening inside master node: 
 
-![[master_node.png]]
+![](master_node.png)
 
 ---------------------------------
 
@@ -133,7 +133,7 @@ Kubernetes is a powerful tool for organizations looking to leverage containeriza
 ------------------------------------------------------------------------
 
 
-![[worker_node.png]]
+![](worker_node.png)
 
 
 ------------------------
@@ -164,14 +164,14 @@ A Secret is an API object that stores sensitive data, such as passwords, OAuth t
 
 # #Volumes
 
-![[volumes.png]]
+![](volumes.png)
 
 
 
 
 # Basic visualization : of fundamental stuff 
 
-![[fundamental_overview.webp]]
+![](fundamental_overview.webp)
 
 
 
@@ -181,22 +181,22 @@ A Secret is an API object that stores sensitive data, such as passwords, OAuth t
 
 # #Production-cluster-setup-Overview : 
 
-![[production_cluster_overview.png]]
+![](production_cluster_overview.png)
 
 
 # #minikube_local_cluster_overview :
 
-![[minikube_local_cluster.png]]
+![](minikube_local_cluster.png)
 
 
 # #What_is_kubectl :
 
-![[what_is_kubectl.png]]
+![](what_is_kubectl.png)
 
 
 # #kubectl_minikube + :
 
-![[kubectl+minikube.png]]
+![](kubectl+minikube.png)
 
 
 
