@@ -33,8 +33,8 @@ docker ps --formate=$FORMAT
 ~~~
 
 #  #Volumes 
-
-![[Turtle_notes/Docker_kubernetics/Docker/docker_volumes.png]]
+Docker volumes :
+![docker](docker_volumes.png)
 
 # #Hosting-basic-static-html-webpage-from-host-directory-inside-a-nginx container :
 
@@ -102,8 +102,7 @@ docker exec -it <container_name> /bin/bash # it = interactive for my convention
 
 
 # #volume-between-containers :
-
-![[Turtle_notes/Docker_kubernetics/Docker/volumes_bet_containers_docker.png]]
+ ![volume_between_containers](volumes_bet_containers_docker.png)
 
 ###  #use--volumes-from tag  
 ~~~
@@ -124,13 +123,11 @@ docker run -p 8081:80 --name web_copy_nginx_2 --volumes-from nginx_1 -d nginx
 ### Dockerfile reference: *https://docs.docker.com/reference/dockerfile/
 
 
-
-![[Turtle_notes/Docker_kubernetics/Docker/Dockerfile.png]]
-
+ ![Docker_file](Dockerfile.png)
 
 # #what-is-docker-image
 
-![[Turtle_notes/Docker_kubernetics/Docker/docker_image.png]]
+![Docker_image](docker_image.png)
 
 # #Docker-registries
 
@@ -141,7 +138,7 @@ docker run -p 8081:80 --name web_copy_nginx_2 --volumes-from nginx_1 -d nginx
 #### 2) quay.io
 #### 3) AMAZON ECR
 
-![[Docker_registries.png]]
+![docker_registries](Docker_registries.png)
 
 
 
