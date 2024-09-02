@@ -34,7 +34,7 @@ docker ps --formate=$FORMAT
 
 #  #Volumes 
 
-![[docker_volumes.png]]
+![[Turtle_notes/Docker_kubernetics/Docker/docker_volumes.png]]
 
 # #Hosting-basic-static-html-webpage-from-host-directory-inside-a-nginx container :
 
@@ -103,7 +103,7 @@ docker exec -it <container_name> /bin/bash # it = interactive for my convention
 
 # #volume-between-containers :
 
-![[volumes_bet_containers_docker.png]]
+![[Turtle_notes/Docker_kubernetics/Docker/volumes_bet_containers_docker.png]]
 
 ###  #use--volumes-from tag  
 ~~~
@@ -125,11 +125,30 @@ docker run -p 8081:80 --name web_copy_nginx_2 --volumes-from nginx_1 -d nginx
 
 
 
-![[Dockerfile.png]]
+![[Turtle_notes/Docker_kubernetics/Docker/Dockerfile.png]]
 
 
 # #what-is-docker-image
 
-![[docker_image.png]]
+![[Turtle_notes/Docker_kubernetics/Docker/docker_image.png]]
+
+# #Docker-registries
+
+### Docker registry: It is computer server that holds all our  images. 
+
+### can push Docker registries/images to 
+#### 1) Docker Hub
+#### 2) quay.io
+#### 3) AMAZON ECR
+
+![[Docker_registries.png]]
 
 
+
+# #Docker-exec-to-peep-into-Container
+
+## -it= interactive + tty mode  with /bin/bash as shell 
+
+~~~
+docker exec -it <container_id> or <container_name> /bin/bash 
+~~~
