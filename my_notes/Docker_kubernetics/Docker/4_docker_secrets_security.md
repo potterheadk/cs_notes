@@ -1,4 +1,4 @@
-![Secrets Configuration](my_notes/Docker_kubernetics/Docker/secrets.png)
+![Secrets](secrets.png)
 
 -----
 
