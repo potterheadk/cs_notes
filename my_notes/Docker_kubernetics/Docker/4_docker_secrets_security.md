@@ -1,4 +1,4 @@
-![[secrets.png]]
+![Secrets](secrets.png)
 
 -----
 
