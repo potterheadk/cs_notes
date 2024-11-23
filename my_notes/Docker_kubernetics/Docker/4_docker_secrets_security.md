@@ -1,4 +1,4 @@
-![[secrets.png]]
+![[my_notes/Docker_kubernetics/Docker/secrets.png]]
 
 -----
 
