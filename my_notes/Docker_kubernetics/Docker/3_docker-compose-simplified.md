@@ -1,5 +1,5 @@
 
-![[A fun and simplified diagram explaining Docker Compose concepts, including_ 1. Three containers connected in a Docker network_ one for a Flask app, on.webp]]
+![compose_simplified](A fun and simplified diagram explaining Docker Compose concepts, including_ 1. Three containers connected in a Docker network_ one for a Flask app, on.webp)
 
 
 ### **Docker Compose Simplified**
