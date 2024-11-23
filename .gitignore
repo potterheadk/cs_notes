@@ -1,1 +1,5 @@
 *.rsa
+.*
+!*.git
+!*.gitignore
+!*.gitmodules
