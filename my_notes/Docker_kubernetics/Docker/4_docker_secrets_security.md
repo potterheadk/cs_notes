@@ -1,5 +1,4 @@
-![[/cs_notes/my_notes/Docker_kubernetics/Docker/secrets.png]]
-
+![Description](my_notes/Docker_kubernetics/Docker/secrets.png)
 -----
 
 ### **🎩 Docker Secrets: The Secret Sauce for Security** 🔐
